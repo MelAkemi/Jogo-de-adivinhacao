@@ -68,5 +68,5 @@ int main(){
         printf("Voce perdeu! Tente de novo!\n");
     }
 
-
+teste
 }
