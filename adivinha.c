@@ -29,16 +29,17 @@ int main(){
 
         int numerodetentativas  ;
 
-        if (nivel == 1){
-            numerodetentativas = 20;
+        switch (nivel){
+            case 1:
+                numerodetentativas =20;
 
+            case 2: 
+                numerodetentativas=15;
+           default: // igual a else
+
+                numerodetentativas=6;
         }
-        else if (nivel == 2){
-            numerodetentativas = 15;
-        }
-        else {
-            numerodetentativas = 6;
-        }
+       
 
 
     for(int i = 1; i <= numerodetentativas; i++) {
