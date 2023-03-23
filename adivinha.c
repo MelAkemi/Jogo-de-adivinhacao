@@ -32,12 +32,15 @@ int main(){
         switch (nivel){
             case 1:
                 numerodetentativas =20;
+                break;
 
             case 2: 
                 numerodetentativas=15;
+                break;
            default: // igual a else
 
                 numerodetentativas=6;
+                break;
         }
        
 
